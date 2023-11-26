@@ -12,7 +12,7 @@
             color: #fff;
             text-align: center;
             padding: 1em;
-            width: 50%;
+            width: 100%;
             margin: 0 auto; 
         }
 
@@ -49,14 +49,14 @@
             border-bottom: none;
         }
     ul {
-        columns: 2;
-        max-height: 250px; /* Adjust the max height as needed */
-        overflow-y: auto; /* Add a vertical scrollbar when content exceeds the container height */
-        list-style-type: none; /* Remove default list styling */
-        padding: 0; /* Remove default padding */
+        columns: 1;
+        max-height: 225px;
+        overflow-y: vertical;
+        list-style-type: none;
+        padding: 0; 
     }
 
     ul li {
         display: list-item;
-        padding: 8px; /* Add some padding for better readability */
+        padding: 10px; /* Add some padding for better readability */
     }
