@@ -51,8 +51,8 @@
             border-bottom: none;
         }
     ul {
-        columns: 1;
-        max-height: 225px;
+        columns: 2;
+        max-height: 250px;
         overflow-y: horizontal;
         list-style-type: none;
         padding: 0; 
