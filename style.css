@@ -21,7 +21,7 @@
         }
 
         main {
-            max-width: 1200px;
+            max-width: 1150px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -51,7 +51,7 @@
             border-bottom: none;
         }
     ul {
-        columns: 2;
+        columns: 1;
         max-height: 250px;
         overflow-y: scroll;
         list-style-type: none;
