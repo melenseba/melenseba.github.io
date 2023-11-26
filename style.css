@@ -51,12 +51,10 @@
     ul {
         columns: 1;
         max-height: 225px;
-        overflow-y: vertical;
-        list-style-type: none;
-        padding: 0; 
+        overflow-y: horizontal;
     }
 
     ul li {
         display: list-item;
-        padding: 10px; /* Add some padding for better readability */
+        padding: 10px;
     }
