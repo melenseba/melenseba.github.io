@@ -33,6 +33,8 @@
 
         section {
             margin-bottom: 20px;
+            display: block;
+            margin: 0 auto;              
         }
 
         ul {
@@ -52,6 +54,8 @@
         columns: 1;
         max-height: 225px;
         overflow-y: horizontal;
+        list-style-type: none;
+        padding: 0; 
     }
 
     ul li {
