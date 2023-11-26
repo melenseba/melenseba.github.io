@@ -21,7 +21,7 @@
         }
 
         main {
-            max-width: 1150px;
+            max-width: 1000px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -30,7 +30,10 @@
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 20px;
         }
-
+        .right-align {
+            text-align: right;
+            display: block;
+        }
         section {
             margin-bottom: 20px;
             display: block;
