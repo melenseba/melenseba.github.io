@@ -1,7 +1,7 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            margin: auto;
+            margin: 0;
             padding: 0;
             background-color: #f8f8f8;
             color: #333;
@@ -32,8 +32,9 @@
             grid-gap: 20px;
         }
         .right-align {
-            text-align: right;
+            text-align: left;
             display: block;
+            float: right;
         }
         section {
             margin-bottom: 20px;
