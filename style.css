@@ -51,7 +51,7 @@
     ul {
         columns: 2;
         max-height: 250px; /* Adjust the max height as needed */
-        overflow-y: vertical; /* Add a vertical scrollbar when content exceeds the container height */
+        overflow-y: auto; /* Add a vertical scrollbar when content exceeds the container height */
         list-style-type: none; /* Remove default list styling */
         padding: 0; /* Remove default padding */
     }
