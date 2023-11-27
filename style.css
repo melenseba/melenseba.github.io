@@ -18,7 +18,8 @@
         }
 
         h1, h2 {
-            color: #4CAF50;
+            color: #000000;
+            margin: 10px;
         }
 
         main {
@@ -30,6 +31,9 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 20px;
+        }
+        footer {
+            margin: 10px;
         }
         .right-align {
             text-align: left;
