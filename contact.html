@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta a tu Legislador</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Evasores Contributivos en Puerto Rico</h1>
+        
+    </header>
+    <section id="intro">
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Sobre Nosotros</a></li>
+              <li><a href="contact.html">Contacta a tu Legislador</a></li>
+            </ul>
+          </nav>
+
+    <form action="mailto:" method="post" enctype="text/plain">
+        <label for="name">Tu Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Tu Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="legislator">Selecciona tu Legislador:</label>
+        <select id="legislator" name="legislator" required>
+            <option value="" disabled selected>Legisladores</option>
+            <option value="abulerin@camara.pr.gov">Angel Bulerín Ramos-Distrito: 37</option>
+            <option value="afourquet@camara.pr.gov">Ángel A. Fourquet Cordero-Distrito: 24</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+
+        <label for="subject">Asunto:</label>
+        <input type="text" id="subject" name="subject" value="Comentario para el Legislador" required>
+
+        <label for="message">Tu Mensaje:</label>
+        <textarea id="message" name="message" rows="8" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>
+        <p>Todo el contenido en este site es información pública. </p>
+        <p>&copy; 2023 Evasores Contributivos PR</p>
+    </footer>
+</body>
+</html>
